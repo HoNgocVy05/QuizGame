@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HO NGOC VY\\Project\\QuizGame\\wwwroot\\css\\index.css",
+      "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\HO NGOC VY\\Project\\QuizGame\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\HO NGOC VY\\Project\\QuizGame\\wwwroot\\game.html",
+      "PackagePath": "staticwebassets\\game.html"
+    },
+    {
+      "Id": "C:\\Users\\HO NGOC VY\\Project\\QuizGame\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HO NGOC VY\\Project\\QuizGame\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\HO NGOC VY\\Project\\QuizGame\\wwwroot\\topic.html",
+      "PackagePath": "staticwebassets\\topic.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.QuizGame.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.QuizGame.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.QuizGame.props",
+      "PackagePath": "build\\QuizGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.QuizGame.props",
+      "PackagePath": "buildMultiTargeting\\QuizGame.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.QuizGame.props",
+      "PackagePath": "buildTransitive\\QuizGame.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
