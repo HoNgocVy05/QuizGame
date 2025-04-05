@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-    <meta charset="UFT-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Chọn chủ đề</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/index.js"></script>
+    <script>
+        function startGame(topic) {
+            window.location.href = `game.html?topic=${topic}`;
+        }
+    </script>
 </head>
 <body>
     <h1>Chọn chủ đề</h1>
     <div class="cards">
-        <div class="card"  >Toán học</div>
-        <div class="card"  >Khoa học</div>
-        <div class="card"  >Tiếng anh</div>
+        <div class="card" onclick="startGame('math')">Toán học</div>
+        <div class="card" onclick="startGame('science')">Khoa học</div>
+        <div class="card" onclick="startGame('science')">Tiếng anh</div>
     </div>
 </body>
 </html>

@@ -14,7 +14,7 @@ socket.onopen = () => {
 // Sự kiện khi nhận dữ liệu từ server
 socket.onmessage = (event) => {
     if (waitingForNext) return;
-
+    
     console.log("Nhận dữ liệu:", event.data);
 
     // Nếu dữ liệu bắt đầu bằng "score", tức là trò chơi đã kết thúc
