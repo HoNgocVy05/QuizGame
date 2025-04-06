@@ -72,6 +72,16 @@ button:hover {
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.correct {
+    background-color: #4caf50 !important;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.wrong {    
+    background-color: #ff4c4c !important;
+    color: white;
+    transition: background-color 0.5s ease;
+}
 
 button:disabled {
     opacity: 0.6;
