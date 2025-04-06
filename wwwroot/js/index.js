@@ -61,6 +61,12 @@ function handleAnswer(button, selectedIndex, correctIndex) {
 
     // Vô hiệu hóa các nút sau khi chọn
     document.querySelectorAll(".answer").forEach(btn => btn.disabled = true);
+    if (selectedIndex === correctIndex){
+        button.classList.add("correct"); 
+    } else {
+        button.classList.add("wrong");
+        document.querySelectorAll(".answer")[correctIndex].classList.add("correct");
+    }
 
     // Gửi đáp án đã chọn lên server sau 1.5 giây
     setTimeout(() => {
