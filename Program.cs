@@ -72,28 +72,28 @@ List<Question> GetQuestions(string topic)
         new Question("12 ÷ 6 =", new[] { "0", "1", "2", "3" }, 2)
     };
 
-    var scienceQuestions = new List<Question>
+    var programmingQuestions = new List<Question>
     {
-        new Question("Mặt Trời là gì?", new[] { "Một hành tinh", "Một ngôi sao", "Một vệ tinh", "Một thiên hà" }, 1),
-        new Question("Con người cần khí gì để thở?", new[] { "Carbon dioxide", "Nitơ", "Oxy", "Hydro" }, 2),
-        new Question("Nước sôi ở bao nhiêu độ C?", new[] { " 100°C", " 80°C", " 90°C", " 70°C" }, 0),
-        new Question("Trái Đất quay quanh gì?", new[] { "Mặt Trăng", "Mặt Trời", "Sao Hỏa", "Sao Kim" }, 1),
-        new Question("Cơ quan nào giúp con người hít thở?", new[] { "Tim", "Gan", "Dạ dày", "Phổi" }, 3)
+        new Question("How do you center text in CSS?", new[] { "text-align: left;", "text-align: center;", "align-text: center;", "center-text: true;" }, 1),
+        new Question("How do you insert a comment in CSS?", new[] { "<!-- comment -->", "// comment", "/* comment */", "# comment" }, 2),
+        new Question("Which tag is used to insert an image in HTML?", new[] { "<img>", "<image>", "<picture>", "<src>" }, 0),
+        new Question("Which CSS property controls the size of text?", new[] { "font-weight", "font-size", "text-style", "text-size" }, 1),
+        new Question("What is the correct HTML element for the largest heading?", new[] { "<head>", "<h6>", "<heading>", "<h1>" }, 3)
     };
 
     var englishQuestions = new List<Question>
     {
-        new Question("apple", new[] { "táo", "cam", "xoài", "nho" }, 0),
-        new Question("ten", new[] { "5", "10", "9", "1" }, 1),
-        new Question("kitchen", new[] { "phòng tắm", "phòng ngủ", "phòng vệ sinh", "phòng bếp" }, 3),
-        new Question("blue", new[] { "màu xanh", "màu đỏ", "màu tím", "màu vàng" }, 0),
-        new Question("car", new[] { "xe buýt", "xe tải", "xe ô tô", "xe máy" }, 2)
+        new Question("She is very _______ at playing the piano.", new[] { "good", "badly", "slow", "quickly" }, 0),
+        new Question("The cat is sitting _______ the table.", new[] { "under", "on", "in", "above" }, 1),
+        new Question("He is _______ than his brother.", new[] { "short", "tall", "more tall", "taller" }, 3),
+        new Question("We _______ go to the park tomorrow.", new[] { "will", "is", "are", "can" }, 0),
+        new Question("He _______ to the gym every morning.", new[] { "go", "going", "goes", "gone" }, 2)
     };
 
     return topic switch
     {
         "math" => mathQuestions,
-        "science" => scienceQuestions,
+        "programming" => programmingQuestions,
         "english" => englishQuestions,
         _ => new List<Question> { new Question("Chủ đề không tồn tại!", new[] { "OK" }, 0) }
     };

@@ -11,9 +11,27 @@ body {
     height: 100vh;
 }
 
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+}
+
 h1 {
     font-size: 32px;
     margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);   
+    text-shadow: #c9c9c9 0px 0px 5px;
+}
+
+a:hover {
+    color:#ffffff;
+    text-shadow: none;
 }
 
 .cards {
@@ -72,6 +90,7 @@ button:hover {
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
 .correct {
     background-color: #4caf50 !important;
     color: white;
