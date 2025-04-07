@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/QuizGame/css/index.1j5qiaybnx.css">
+    <StaticWebAssetEndpoint Include="_content/QuizGame/css/index.521bukz464.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1j5qiaybnx"},{"Name":"integrity","Value":"sha256-fTgSGyExOAUNaFD\u002BlMNB\u002BnVtavJfXxKned1fyfW9YbA="},{"Name":"label","Value":"_content/QuizGame/css/index.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2743"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fTgSGyExOAUNaFD\u002BlMNB\u002BnVtavJfXxKned1fyfW9YbA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 05 Apr 2025 10:17:20 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"521bukz464"},{"Name":"integrity","Value":"sha256-HbhL/6LERMACJ6P\u002B0J7Q\u002BOMZ284aLBlFiXM16SdSO2Y="},{"Name":"label","Value":"_content/QuizGame/css/index.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1290"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HbhL/6LERMACJ6P\u002B0J7Q\u002BOMZ284aLBlFiXM16SdSO2Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 14:05:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QuizGame/css/index.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\index.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fTgSGyExOAUNaFD\u002BlMNB\u002BnVtavJfXxKned1fyfW9YbA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2743"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fTgSGyExOAUNaFD\u002BlMNB\u002BnVtavJfXxKned1fyfW9YbA=\u0022"},{"Name":"Last-Modified","Value":"Sat, 05 Apr 2025 10:17:20 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HbhL/6LERMACJ6P\u002B0J7Q\u002BOMZ284aLBlFiXM16SdSO2Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1290"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022HbhL/6LERMACJ6P\u002B0J7Q\u002BOMZ284aLBlFiXM16SdSO2Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 07 Apr 2025 14:05:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/QuizGame/css/main.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>

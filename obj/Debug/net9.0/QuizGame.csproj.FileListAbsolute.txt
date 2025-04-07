@@ -28,9 +28,9 @@ C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\QuizGame.genruntimeconfig.
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\ref\QuizGame.dll
 C:\Users\HO NGOC VY\Project\QuizGame\bin\Debug\net9.0\QuizGame.staticwebassets.runtime.json
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\QuizGame.sourcelink.json
-C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\ddgbym7oz7-1j5qiaybnx.gz
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\4yin66ubvy-hnjs0zol63.gz
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\x2u2f1t43d-t2d0cgrz3g.gz
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\lxhd3ro0cd-nc7ulgsfhz.gz
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\8o3v7eeqcq-gh7odzcziw.gz
 C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\6m9vt00mb4-41juy0133v.gz
+C:\Users\HO NGOC VY\Project\QuizGame\obj\Debug\net9.0\compressed\ddgbym7oz7-521bukz464.gz
